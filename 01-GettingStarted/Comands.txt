@@ -1,0 +1,19 @@
+---NEST GLOBAL INSTALL---
+
+	npm i -g @nestjs/cli
+
+---CREATE NEST APP---
+
+	nest new <name>
+
+---NEST GENERATE SCHEMAS---
+
+	nest generate controller <name>
+	nest generate modmule <name>
+	nest generate service <name>
+	
+	use sulfixer --no-spec to prevent test archives
+
+---STARTAR APP NEST---
+
+	npm run start:dev
